@@ -184,7 +184,7 @@ namespace BitRobot {
     /**
       * Shows a rainbow pattern on all LEDs.
       */
-    //% blockId="BitRobot_neo_rainbow" block="设置LED为渐变色"
+    //% blockId="BitRobot_neo_rainbow" block="彩虹显示LED"
     //% weight=70
     export function neoRainbow(): void {
         neo().showRainbow(1, 360);
@@ -193,7 +193,7 @@ namespace BitRobot {
     /**
      * Shift LEDs forward and clear with zeros.
      */
-    //% blockId="BitRobot_neo_shift" block="LED滚动显示"
+    //% blockId="BitRobot_neo_shift" block="LED走马灯"
     //% weight=66
     export function neoShift(): void {
         neo().shift(1);
@@ -202,7 +202,7 @@ namespace BitRobot {
     /**
      * Rotate LEDs forward.
      */
-    //% blockId="BitRobot_neo_rotate" block="rotate led pixels"
+    //% blockId="BitRobot_neo_rotate" block="LED循环"
     //% weight=65
     export function neoRotate(): void {
         neo().rotate(1);
