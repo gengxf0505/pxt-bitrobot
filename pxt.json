@@ -1,7 +1,7 @@
 {
-    "name": "bitbot",
+    "name": "robotbit",
     "version": "0.4.1",
-    "description": "A BitBot package for pxt-microbit",
+    "description": "A RobotBit package for pxt-microbit",
     "license": "Apache",
     "dependencies": {
         "core": "*",
