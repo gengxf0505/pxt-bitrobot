@@ -1,5 +1,5 @@
 {
-    "name": "RobotBit",
+    "name": "BitRobot",
     "version": "0.4.1",
     "description": "A RobotBit package for pxt-microbit",
     "license": "Apache",
@@ -10,7 +10,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh/bitbot-strings.json"
+        "_locales/zh/BitRobot-strings.json"
     ],
     "testFiles": [
         "tests.ts"

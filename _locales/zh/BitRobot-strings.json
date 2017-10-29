@@ -1,0 +1,23 @@
+{
+  "BBMotor.Left|block": "左",
+  "BBMotor.Right|block": "右",
+  "BBMotor.All|block": "全部",
+  "BBLineSensor.Left|block": "左",
+  "BBLineSensor.Right|block": "右",
+  "BBLightSensor.Left|block": "左",
+  "BBLightSensor.Right|block": "右",
+  "BitRobott.neo|block": "neo stripe",
+  "BitRobott.motor|block": "马达 %motor|速度 %speed",
+  "BitRobott.buzz|block": "蜂鸣器声音 %flag",
+  "BitRobott.readLine|block": "地面灰度值 %sensor",
+  "BitRobott.readLight|block": "les lys-sensor %sensor",
+  "BitRobott.neoSetColor|block": "sett lysdioder til %rgb=neopixel_colors",
+  "BitRobott.neoSetPixelColor|block": "sett lysdiode %offset|farge %rgb=neopixel_colors",
+  "BitRobott.neoShow|block": "vis lysdioder",
+  "BitRobott.neoClear|block": "nullstill lysdioder",
+  "BitRobott.neoRainbow|block": "sett lysdioder i regnbue",
+  "BitRobott.neoShift|block": "skift lysdioder",
+  "BitRobott.neoRotate|block": "roter lysdioder",
+  "BitRobott.neoBrightness|block": "sett styrke på lysdioder %brightness",
+  "BitRobott.sonar|block": "les sonar som %unit"
+}

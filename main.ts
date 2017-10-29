@@ -47,14 +47,14 @@ enum BBPingUnit {
  * Custom blocks
  */
 //% weight=10 color=#0fbc11 icon="\uf1b9"
-namespace bitbot {
+namespace BitRobot {
 
     let neoStrip: neopixel.Strip;
 
     /**
      * Return a neo pixel strip.
      */
-    //% blockId="bitbot_neo" block="LED初始化"
+    //% blockId="BitRobot_neo" block="LED初始化"
     //% weight=5
     export function neo(): neopixel.Strip {
         if (!neoStrip) {
@@ -70,7 +70,7 @@ namespace bitbot {
       * @param motor motor to drive.
       * @param speed speed of motor
       */
-    //% blockId="bitbot_motor" block="电机 %motor|速度 %speed"
+    //% blockId="BitRobot_motor" block="电机 %motor|速度 %speed"
     //% weight=100
     export function motor(motor: BBMotor, speed: number): void {
         let forward = (speed >= 0);
@@ -102,7 +102,7 @@ namespace bitbot {
       *
       * @param flag Flag to set (0) for off and (1) for on.
       */
-    //% blockId="bitbot_buzz" block="蜂鸣器 %flag"
+    //% blockId="BitRobot_buzz" block="蜂鸣器 %flag"
     //% weight=95
     export function buzz(flag: number): void {
         pins.digitalWritePin(DigitalPin.P14, flag === 0 ? 0 : 1);
@@ -113,7 +113,7 @@ namespace bitbot {
       *
       * @param sensor Line sensor to read.
       */
-    //% blockId="bitbot_read_line" block="数字巡线 %sensor"
+    //% blockId="BitRobot_read_line" block="数字巡线 %sensor"
     //% weight=90
     export function readLine(sensor: BBLineSensor): number {
         if (sensor == BBLineSensor.Left) {
@@ -128,7 +128,7 @@ namespace bitbot {
       *
       * @param sensor Light sensor to read.
       */
-    //% blockId="bitbot_read_light" block="模拟巡线 %sensor"
+    //% blockId="BitRobot_read_light" block="模拟巡线 %sensor"
     //% weight=90
     export function readLight(sensor: BBLightSensor): number {
         if (sensor == BBLightSensor.Left) {
@@ -145,7 +145,7 @@ namespace bitbot {
       *
       * @param rgb RGB color of the LED
       */
-    //% blockId="bitbot_neo_set_color" block="设置全部LED颜色为 %rgb=neopixel_colors"
+    //% blockId="BitRobot_neo_set_color" block="设置全部LED颜色为 %rgb=neopixel_colors"
     //% weight=80
     export function neoSetColor(rgb: number) {
         neo().showColor(rgb);
@@ -157,7 +157,7 @@ namespace bitbot {
      * @param offset position of the NeoPixel in the strip
      * @param rgb RGB color of the LED
      */
-    //% blockId="bitbot_neo_set_pixel_color" block="设置 %offset|号LED的颜色为 %rgb=neopixel_colors"
+    //% blockId="BitRobot_neo_set_pixel_color" block="设置 %offset|号LED的颜色为 %rgb=neopixel_colors"
     //% weight=80
     export function neoSetPixelColor(offset: number, rgb: number): void {
         neo().setPixelColor(offset, rgb);
@@ -166,7 +166,7 @@ namespace bitbot {
     /**
       * Show leds.
       */
-    //% blockId="bitbot_neo_show" block="LED显示"
+    //% blockId="BitRobot_neo_show" block="LED显示"
     //% weight=76
     export function neoShow(): void {
         neo().show();
@@ -175,7 +175,7 @@ namespace bitbot {
     /**
       * Clear leds.
       */
-    //% blockId="bitbot_neo_clear" block="LED清除"
+    //% blockId="BitRobot_neo_clear" block="LED清除"
     //% weight=75
     export function neoClear(): void {
         neo().clear();
@@ -184,7 +184,7 @@ namespace bitbot {
     /**
       * Shows a rainbow pattern on all LEDs.
       */
-    //% blockId="bitbot_neo_rainbow" block="设置LED为渐变色"
+    //% blockId="BitRobot_neo_rainbow" block="设置LED为渐变色"
     //% weight=70
     export function neoRainbow(): void {
         neo().showRainbow(1, 360);
@@ -193,7 +193,7 @@ namespace bitbot {
     /**
      * Shift LEDs forward and clear with zeros.
      */
-    //% blockId="bitbot_neo_shift" block="LED滚动显示"
+    //% blockId="BitRobot_neo_shift" block="LED滚动显示"
     //% weight=66
     export function neoShift(): void {
         neo().shift(1);
@@ -202,7 +202,7 @@ namespace bitbot {
     /**
      * Rotate LEDs forward.
      */
-    //% blockId="bitbot_neo_rotate" block="rotate led pixels"
+    //% blockId="BitRobot_neo_rotate" block="rotate led pixels"
     //% weight=65
     export function neoRotate(): void {
         neo().rotate(1);
@@ -213,7 +213,7 @@ namespace bitbot {
      *
      * @param brightness a measure of LED brightness in 0-255. eg: 255
      */
-    //% blockId="bitbot_neo_brightness" block="设置LED的亮度为 %brightness"
+    //% blockId="BitRobot_neo_brightness" block="设置LED的亮度为 %brightness"
     //% weight=10
     export function neoBrightness(brightness: number): void {
         neo().setBrigthness(brightness);
@@ -224,7 +224,7 @@ namespace bitbot {
     *
     * @param unit desired conversion unit
     */
-    //% blockId="bitbot_sonar" block="超声波 %unit"
+    //% blockId="BitRobot_sonar" block="超声波 %unit"
     //% weight=7
     export function sonar(unit: BBPingUnit): number {
         // send pulse
