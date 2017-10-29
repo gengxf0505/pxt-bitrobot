@@ -3,7 +3,7 @@
   * Enumeration of motors.
   */
 enum BBMotor {
-    //% block="left"
+    //% block="左"
     Left,
     //% block="right"
     Right,
@@ -78,7 +78,7 @@ namespace bitbot {
         if (speed > 1023) {
             speed = 1023;
         } else if (speed < -1023) {
-            speed = 1023;
+            speed = -1023;
         }
 
         let realSpeed = speed;
