@@ -5,9 +5,9 @@
 enum BBMotor {
     //% block="左"
     Left,
-    //% block="right"
+    //% block="右"
     Right,
-    //% block="all"
+    //% block="全部"
     All
 }
 
