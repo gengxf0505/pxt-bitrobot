@@ -4,8 +4,7 @@
     "description": "A RobotBit package for pxt-microbit",
     "license": "Apache",
     "dependencies": {
-        "core": "*",
-        "neopixel": "github:microsoft/pxt-neopixel#v0.3.4"
+        "core": "*"
     },
     "files": [
         "README.md",
