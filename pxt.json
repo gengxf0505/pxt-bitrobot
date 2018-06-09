@@ -4,12 +4,12 @@
     "description": "A RobotBit package for pxt-microbit",
     "license": "Apache",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.3.4"
     },
     "files": [
         "README.md",
         "main.ts",
-        "sendBufferBitRobotAsm.asm",
         "_locales/zh/BitRobot-strings.json"
     ],
     "testFiles": [
