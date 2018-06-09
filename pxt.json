@@ -7,10 +7,9 @@
         "core": "*"
     },
     "files": [
-        "README.md",
+        
         "main.ts",
-        "sendBuffer.asm",
-        "_locales/zh/BitRobot-strings.json"
+        "sendBuffer.asm"
     ],
     "testFiles": [
         "tests.ts"
