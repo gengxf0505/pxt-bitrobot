@@ -239,7 +239,7 @@ namespace BitRobot {
          * Send all the changes to the strip.
          */
         
-        show() {
+        show():void {
             sendBuffer(this.buf, this.pin);
         }
         /**
