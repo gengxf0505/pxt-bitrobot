@@ -719,6 +719,7 @@ namespace BitRobot {
         }
     }
 
+    
     /**
     * Read distance from sonar module connected to accessory connector.
     *
