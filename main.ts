@@ -89,7 +89,7 @@ enum BBPixelMode {
 namespace BitRobot {
     //let lhRGBLight: APDS9960;
     let neoStrip: Strip; 
-    //% shim=sendbufferBitRobot
+    //% shim=sendbufferBitRobotAsm
     //% parts="neopixelbitrobit"
     function sendBuffer(buf: Buffer, pin: DigitalPin) {
     }
