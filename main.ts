@@ -240,7 +240,7 @@ namespace BitRobot {
          */
         
         show() {
-            //sendBuffer(this.buf, this.pin);
+            sendBuffer(this.buf, this.pin);
         }
         /**
          * Turn off all LEDs.
@@ -588,8 +588,8 @@ namespace BitRobot {
     //% blockId="bitbot_neo_show" block="LED显示"
     //% weight=2
     export function neoShow(): void {
-        //neo().show();
-        sendBuffer(neoStrip.buf,neoStrip.pin);
+        neoStrip.show();
+        //sendBuffer(neoStrip.buf,neoStrip.pin);
     }
 
     /**
