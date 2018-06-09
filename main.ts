@@ -588,7 +588,8 @@ namespace BitRobot {
     //% blockId="bitbot_neo_show" block="LED显示"
     //% weight=2
     export function neoShow(): void {
-        neo().show();
+        //neo().show();
+        sendBuffer(neo().buf,neo().pin);
     }
 
     /**
