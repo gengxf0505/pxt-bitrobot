@@ -467,8 +467,8 @@ namespace BitRobot {
         strip.start = 0;
         strip._length = numleds;
         strip._mode = mode;
-        strip.setBrightness(30)
-        strip.setPin(pin)
+        strip.setBrightness(30);
+        strip.setPin(pin);
         return strip;
     }
 
@@ -589,7 +589,7 @@ namespace BitRobot {
     //% weight=2
     export function neoShow(): void {
         //neo().show();
-        sendBuffer(neo().buf,neo().pin);
+        sendBuffer(neoStrip.buf,neoStrip.pin);
     }
 
     /**
