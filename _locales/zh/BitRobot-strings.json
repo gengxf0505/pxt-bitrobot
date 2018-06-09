@@ -8,7 +8,7 @@
   "BBLightSensor.Right|block": "右",
   "BitRobot.neo|block": "LED初始化",
   "BitRobot.motor|block": "马达 %motor|速度 %speed",
-  "BitRobot.buzz|block": "蜂鸣器音量 %flag",
+  "BitRobot.buzz|block": "蜂鸣器 %flag",
   "BitRobot.readLine|block": "地面灰度值 %sensor",
   "BitRobot.readLight|block": "巡线传感器值 %sensor",
   "BitRobot.neoSetColor|block": "设置LED颜色为 %rgb=neopixel_colors",
