@@ -4,7 +4,8 @@
     "description": "A RobotBit package for pxt-microbit",
     "license": "Apache",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "ws2812b": "github:Microsoft/pxt-ws2812b#v0.0.4"
     },
     "files": [
         
