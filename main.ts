@@ -240,7 +240,7 @@ namespace BitRobot {
          */
         
         show() {
-            BitRobot.sendBuffer(this.buf, this.pin);
+            sendBuffer(this.buf, this.pin);
         }
         /**
          * Turn off all LEDs.
