@@ -89,7 +89,7 @@ enum BBPixelMode {
 namespace BitRobot {
     //let lhRGBLight: APDS9960;
     let neoStrip: Strip; 
-    //% shim=sendBufferBitRobotAsm
+    
     //% parts="neopixelbitrobit"
     function sendBuffer(buf: Buffer, pin: DigitalPin) {
     }
@@ -719,7 +719,7 @@ namespace BitRobot {
         }
     }
 
-    
+
     /**
     * Read distance from sonar module connected to accessory connector.
     *
