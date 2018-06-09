@@ -239,8 +239,8 @@ namespace BitRobot {
          * Send all the changes to the strip.
          */
         
-        show():void {
-            sendBuffer(this.buf, this.pin);
+        show() {
+            BitRobot.sendBuffer(this.buf, this.pin);
         }
         /**
          * Turn off all LEDs.
