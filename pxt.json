@@ -9,6 +9,7 @@
     "files": [
         "README.md",
         "main.ts",
+        "sendbufferBitRobot.asm",
         "_locales/zh/BitRobot-strings.json"
     ],
     "testFiles": [
