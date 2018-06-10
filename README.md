@@ -2,6 +2,7 @@
 
 This library provides a Microsoft PXT package for BitRobot, see http://www.makeredu.net
 
+
 ## Driving the motor
 
 Use `BitRobot.motor(..)` to drive motor either forward or reverse. The value

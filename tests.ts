@@ -2,6 +2,7 @@
   let item2 = 0
   let item1 = 0
   let item = 0
+  
   BitRobot.motor(BBMotor.Left, 0)
   BitRobot.motor(BBMotor.Right, 0)
   BitRobot.motor(BBMotor.Left, 1000)
@@ -14,7 +15,7 @@
   item = BitRobot.readLine(BBLineSensor.Left)
   item1 = BitRobot.readLight(BBLightSensor.Left)
   item2 = BitRobot.sonar(BBPingUnit.Centimeters)
-  
+
   BitRobot.neoBrightness(30)
   BitRobot.neoSetColor(BBPixelColors.Indigo)
   BitRobot.neoShow()

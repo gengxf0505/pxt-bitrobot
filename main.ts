@@ -545,6 +545,7 @@ namespace BitRobot {
         CounterClockwise,
         Shortest
     }
+    
 
     /**
      * Return a neo pixel strip.
